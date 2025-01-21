@@ -1,0 +1,84 @@
+body{
+  background-color: rgb(187, 187, 192);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 26px;
+}
+body,html{
+  font-size: 38px;
+}
+.calculator-btn{
+  background-color: rgb(199, 22, 22);
+  color: rgb(253, 252, 252);
+  margin-right: 10px;
+  width: 80px;
+  height: 70px;
+  border-width: 2px;
+  font-size: 17px; 
+}
+
+.calculator-btn:hover{
+  background-color: rgb(8, 8, 37);
+}
+.calculatorDisplay{
+  height: 80px;
+  width: 473px;
+}
+.rock-paper-scissors{
+
+    margin-top : 200px;
+    
+  
+}
+.calculator{
+  margin-left: 400px;
+  margin-top: 200px;
+  
+
+  
+}
+
+ .calculator-buttons{
+  margin-bottom: 5px; 
+         
+}
+.rock-btn{
+  background-color: cornflowerblue;
+  width: 200px;
+  height: 100px;
+  color: whitesmoke;
+  margin-right: 30px;
+  border-radius: 5px;
+  font-size: 26px;
+  
+}
+.rock-btn:hover{
+  background-color: #f39696;
+  border-radius: 10px;
+  width: 350px;
+}
+.rock-paper-scissors{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.rock-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 300px;
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.scoresDisplay,
+.resultMessage, .winningMessage{
+  color: white;
+  margin-left:600px;
+  margin-top: 50px;
+}
+

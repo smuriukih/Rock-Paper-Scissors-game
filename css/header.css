@@ -1,0 +1,36 @@
+.header{
+    background-color: rgb(255, 255, 253);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin-top: 5px;
+    position:fixed ;
+    left: 0px;
+    right: 0px;
+}
+
+.amazon-logo{
+    height: 100%;
+    width: 190px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.left{
+    max-width: 180px;
+    background-color: antiquewhite;
+}
+.center-header{
+    align-items: end;
+    min-height: 100%;
+    background-color: navy;
+    color: white;
+    padding-left: 5px;
+    width: 1600px;
+
+
+
+}

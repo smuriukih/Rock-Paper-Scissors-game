@@ -1,0 +1,105 @@
+body{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style: normal;
+   background-color: rgb(19, 19, 48);
+   font-size: 26px;
+   color: azure;
+   /*image properties*/
+   background-image: url(../images/bg\ image.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position:center ;
+   position: relative;
+   
+}
+body, html{
+   height: 100%;
+}
+.container{
+   display: flex;
+   flex-direction: column;
+   grid-template-rows:100px 200px 200px;
+   row-gap: 50px;
+   margin-top: 200px;
+   margin-left: 100px;
+
+   /*making the container div float*/
+   position: absolute;
+
+
+}
+.btn-class{
+     
+   width: 300px;
+   height: 100px;
+   margin-right: 30px;
+   background-color: rgb(226, 72, 72);
+   color: white;
+   font-size: 29px;
+   border-radius: 20px;
+   border: none;
+   cursor: pointer;
+}
+.btn-class:hover{
+   background-color: blanchedalmond;
+   color: rgb(66, 58, 48);
+}
+.subscribe-button{
+   width: 300px;
+   height: 100px;
+   margin-right: 30px;
+   background-color: rgb(226, 72, 72);
+   color: white;
+   font-size: 29px;
+   border-radius: 40px;
+}
+.afterClick{
+   background-color: black;
+   color: white;
+}
+.subscribe-button:hover{
+   background-color: blanchedalmond;
+   color: rgb(66, 58, 48);
+}
+.newsletter-btn{
+   width: 300px;
+   height: 100px;
+   margin-right: 30px;
+   background-color: rgb(226, 72, 72);
+   color: white;
+   font-size: 29px;
+   border-radius: 20px;
+}
+.order-calculation{
+   width: 300px;
+   height: 50px;
+   border-radius: 10px;
+}
+.calculate-btn{
+   width: 300px;
+   height: 100px;
+   margin-right: 30px;
+   background-color: rgb(226, 72, 72);
+   color: white;
+   font-size: 29px;
+   border-radius: 20px;
+}
+.calculate-btn:hover,
+.newsletter-btn:hover{
+   background-color: blanchedalmond;
+   color: rgb(66, 58, 48);
+}
+.orderCalculation{
+   height: 50px;
+   width: 300px;
+   padding-left: 300px;
+   font-size: 26px;
+}
+.rockPaperScissors{
+   background-color: transparent;
+   border: 4px solid red;
+   width: 120px;
+   height: 120px;
+   border-radius: 150px;
+   
+}
